@@ -4,13 +4,11 @@
 #'@param x row to be repeated
 #'@param n number of times to be repeated
 #'@return matrix with x repeated n times
-#'@seealso na
-#'@examples na
-#'rep.row()
+#'@seealso https://www.r-bloggers.com/a-quick-way-to-do-row-repeat-and-col-repeat-rep-row-rep-col/ and is written by TszKin Julian
+#'@examples repRow(x,n)
+#'@export
+#'repRow()
 
-
-
-
-rep.row<<-function(x,n){
+repRow <- function(x,n){
   matrix(rep(x,each=n),nrow=n)
 }
