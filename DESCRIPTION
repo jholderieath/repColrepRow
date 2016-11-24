@@ -1,0 +1,10 @@
+Package: repColrepRow
+Title: Repeats Rows and Columns of Matrices
+Version: 0.0.0.9000
+Authors@R: person("Jason", "Holderieath", email = "jholderieath@gmail.com", role = c("cre"))
+Description: This code was found on R-bloggers. It can be found at https://www.r-bloggers.com/a-quick-way-to-do-row-repeat-and-col-repeat-rep-row-rep-col/ and is written by TszKin Julian. I use it frequently enough I am putting it in a package for myself.  It repeats rows and columns.
+Depends: R (>= 3.3.1)
+License: UNLICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1.9000
