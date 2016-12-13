@@ -11,3 +11,16 @@ Load the devtools package.
 library(devtools)
 install_github("jholderieath/repColrepRow")
 ```
+Use is simple. These functions allow easy replication of rows and columns
+```R
+library(repColrepRow)
+repRow(x, n)
+repCol(x, n)
+```
+Arguments to the functions are:
+```R 
+x, n
+```
+where 'x' is row/column to be repeated and 'n' number of times to be repeated.
+
+
