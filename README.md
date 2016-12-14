@@ -21,6 +21,6 @@ Arguments to the functions are:
 ```R 
 x, n
 ```
-where 'x' is row/column to be repeated and 'n' number of times to be repeated.
+where `x` is row/column to be repeated and `n` number of times to be repeated.
 
 
